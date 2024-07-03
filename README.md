@@ -118,14 +118,18 @@ Asciisync performs a local asciibinder build and syncs the distribution of your 
 
 1. Install [homebrew](https://brew.sh/).
 2. Brew install podman
-3. Download asciisync-mac
-4. chmod +x asciisync-mac
-5. ./asciisync-mac
-6. script needs mv /usr/local/bin/asciisync
-7. podman machine init
-8. podman machine start
-9. cd openshift docs
-10. asciisync
+3. Brew install shellcheck-py
+4. Brew install shellcheck
+5. shellcheck
+6. shell
+7. Download asciisync-mac
+8. chmod +x asciisync-mac
+9. ./asciisync-mac
+10. script needs mv /usr/local/bin/asciisync
+11. podman machine init
+12. podman machine start
+13. cd openshift docs
+14. asciisync
 
 ### Installing asciisync manually (Mac)
 
@@ -137,8 +141,16 @@ Asciisync performs a local asciibinder build and syncs the distribution of your 
 
 1. Install [homebrew](https://brew.sh/).
 2. Brew install podman
-3. vim /usr/local/bin/asciisync and paste file contents here
-4. chmod 755 asciisync
+3. Brew install shellcheck-py
+4. Brew install shellcheck
+5. shellcheck
+6. shell
+7. vim /usr/local/bin/asciisync and paste file contents
+8. chmod 755 asciisync
+9. podman machine init
+10. podman machine start
+11. cd openshift docs
+12. asciisync
 
 ## Using asciisync
 
